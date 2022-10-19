@@ -17,3 +17,28 @@ function tamanho() {
         menu.style.display = 'none'
     }
 }
+
+function horas() {
+    let texto = document.querySelector('#horas');
+    let data = new Date();
+    let horas = data.getHours();
+    let minutos = data.getMinutes();
+
+    if(minutos < 10) {
+        minutos = '0' + minutos;
+    }
+
+    /*console.log(`Bom dia! ${horas}:${minutos}`);*/
+
+    if(horas >= 6 && horas < 12) {
+        texto.innerHTML = `Bom dia! ${horas}:${minutos} <span class="material-icons">light_mode</span>`
+    }
+
+    else if(horas >= 12 && horas < 18) {
+        texto.innerHTML = `Boa tarde! ${horas}:${minutos} <span class="material-icons">light_mode</span>`
+    }
+
+    else {
+        texto.innerHTML = `Boa noite! ${horas}:${minutos} <span class="material-icons">nights_stay</span>`
+    }
+}

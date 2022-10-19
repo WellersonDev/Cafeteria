@@ -49,10 +49,17 @@ Grandes telas: acima de 1200px
         background-position: center 75%;
         padding: 0px 10px;
         height: 35vh;
+
+        position: relative;
     }
     
     header span#lista {
         display: none;
+    }
+
+    header p#horas {
+        position: absolute;
+        left: 182px;
     }
 
     header menu {

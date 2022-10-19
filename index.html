@@ -10,9 +10,11 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
 </head>
-<body onresize="tamanho()">
+<body onresize="tamanho()" onload="horas()">
     <header>
         <h1>Coffee<span id="icone-cafe" class="material-icons">coffee</span></h1>
+
+        <p id="horas"></p>
 
         <span id="lista" class="material-icons" onclick="menu()">list</span>
         

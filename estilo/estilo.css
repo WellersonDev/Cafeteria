@@ -45,6 +45,19 @@ header span#icone-cafe {
     margin-left: 7px;
 }
 
+header p#horas {
+    margin-left: 10px;
+    height: 25px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+}
+
+header p#horas span {
+    font-size: 20px;
+}
+
 header span#lista {
     background-color: var(--cor02);
     color: white;
