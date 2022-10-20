@@ -20,19 +20,19 @@ Grandes telas: acima de 1200px
 
 @media screen and (min-width: 360px) {
     header {
-        background-size: 134%;
+        background-size: 152%;
     }
 }
 
 @media screen and (min-width: 390px) {
     header {
-        background-size: 124%;
+        background-size: 140%;
     }
 }
 
 @media screen and (min-width: 414px) {
     header {
-        background-size: 117%;
+        background-size: 132%;
     }
 }
 

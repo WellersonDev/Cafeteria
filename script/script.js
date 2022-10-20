@@ -24,6 +24,10 @@ function horas() {
     let horas = data.getHours();
     let minutos = data.getMinutes();
 
+    if(horas < 10) {
+        horas = '0' + horas
+    }
+
     if(minutos < 10) {
         minutos = '0' + minutos;
     }
