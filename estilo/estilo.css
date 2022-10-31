@@ -120,6 +120,12 @@ main section#diversos section.grupo article span {
     padding: 25px;
     border-radius: 50%;
     cursor: pointer;
+
+    transition-duration: .3s;
+}
+
+main section#diversos section.grupo article span:hover {
+    transform: scale(1.25, 1.25);
 }
 
 main section#diversos section.grupo article p {
