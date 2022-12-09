@@ -175,3 +175,39 @@ footer section.grupo section#links a {
 footer section.grupo p {
     text-align: center;
 }
+
+
+
+
+/*==========ESTILO DE PEDIDOS==========*/
+section#diversos {
+    /*height: 300px;*/
+}
+
+section#diversos select#opções {
+    background-color: var(--cor01);
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border: 2px solid white;
+    border-radius: 12px;
+    padding: 4px;
+    outline: 0;
+}
+
+section#diversos input#botãoIncluir {
+    background-color: var(--cor04);
+    color: white;
+    font-weight: bolder;
+    border: none;
+    border-radius: 12px;
+    padding: 7px 15px;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.418);
+    transition-duration: .2s;
+}
+
+section#diversos input#botãoIncluir:hover {
+    background-color: #8fc0d4c7;
+}
+/*======================================*/
