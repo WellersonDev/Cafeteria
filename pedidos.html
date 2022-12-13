@@ -35,20 +35,24 @@
                 <option value="" selected>Escolha algo</option>
 
                 <optgroup label="Comida">
-                    <option value="Pão">Pão francês R$2,50</option>
-                    <option value="">Waffle R$4,00</option>
-                    <option value="">Pão de Aveia R$3,00</option>
-                    <option value="">Rosquinha R$3,00</option>
+                    <option value="Pão Francês">Pão Francês R$2,50</option>
+                    <option value="Waffle">Waffle R$4,00</option>
+                    <option value="Pão de Aveia">Pão de Aveia R$3,00</option>
+                    <option value="Rosquinha">Rosquinha R$3,00</option>
                 </optgroup>
 
                 <optgroup label="Bebidas">
-                    <option value="">Café R$4,00</option>
-                    <option value="">Café Capuccino R$5,00</option>
-                    <option value="">Café Gelado R$4,50</option>
+                    <option value="Café">Café R$4,00</option>
+                    <option value="Café Capuccinno">Café Capuccinno R$5,00</option>
+                    <option value="Café Gelado">Café Gelado R$4,50</option>
                 </optgroup>
             </select>
 
-            <input type="submit" value="Incluir" id="botãoIncluir" onclick="adicionar()">
+            <input type="button" value="Incluir" id="botãoIncluir" onclick="adicionarPedido()">
+
+            <section id="lista"></section>
+
+            <input type="button" value="Total" id="total" onclick="total()">
         </section>
 
         <section id="sobre">

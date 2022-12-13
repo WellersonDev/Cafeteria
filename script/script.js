@@ -46,3 +46,19 @@ function horas() {
         texto.innerHTML = `Boa noite! ${horas}:${minutos} <span class="material-icons">nights_stay</span>`
     }
 }
+
+function adicionarPedido() {
+    let produto = document.querySelector('select').value;
+    let lista = document.querySelector('section#lista');
+    console.log(produto);
+
+    if(produto === 'Pão Francês') {
+        lista.innerHTML += `<span class="item">${produto}</span> <span>R$2,50</span>`
+        lista.innerHTML += `<hr>`
+    }
+    
+    else if(produto === 'Waffle') {
+        lista.innerHTML += `<span class="item">${produto}</span> <span>R$4,00</span>`
+        lista.innerHTML += `<hr>`
+    }
+}
