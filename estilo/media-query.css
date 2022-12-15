@@ -110,4 +110,15 @@ Grandes telas: acima de 1200px
         padding: 0;
         margin-right: 15px
     }
+
+
+    /*==========ESTILO DE PEDIDOS==========*/
+    section#pedidos {
+        max-width: 420px;
+    }
+
+    section#pedidos span.item {
+        margin-right: 220px;
+    }
+    /*=====================================*/
 }

@@ -211,22 +211,23 @@ section#diversos input#botãoIncluir:hover {
     background-color: #8fc0d4c7;
 }
 
-section#lista {
-    max-width: 420px;
+section#pedidos {
+    background-color: blue;
+    max-width: 280px;
     margin: auto;
 }
 
-section#lista span {
+section#pedidos span {
     text-align: left;
-    text-indent: 5px;
+    text-indent: 1px;
     padding-top: 10px;
 }
 
-section#lista span.item {
+section#pedidos span.item {
     background-color: blueviolet;
     display: inline-block;
     width: 140px;
-    margin-right: 200px;
+    margin-right: 80px;
 }
 
 section#diversos input#total {
