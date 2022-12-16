@@ -54,5 +54,11 @@ function adicionarPedido() {
 
     console.log(precoFinal);
     console.log(clique);
-    lista.innerHTML += `<p>${precoFinal}</p>`
+    /*lista.innerHTML += `<p>${precoFinal}</p>`*/
+}
+
+function total() {
+    let precoTotal = document.querySelector('section#precoFinal');
+    precoTotal.innerHTML = ``
+    precoTotal.innerHTML += `<span class="totalProdutos">Total: </span><span>R$${precoFinal.toFixed(2).replace('.', ',')}</span>`
 }

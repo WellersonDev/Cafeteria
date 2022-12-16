@@ -230,6 +230,25 @@ section#pedidos span.item {
     margin-right: 80px;
 }
 
+section#diversos section#precoFinal {
+    background-color: darkcyan;
+    max-width: 280px;
+    margin: auto;
+}
+
+section#precoFinal span {
+    text-align: left;
+    text-indent: 1px;
+    padding-top: 10px;
+}
+
+section#precoFinal span.totalProdutos {
+    background-color: blueviolet;
+    display: inline-block;
+    width: 76px;
+    margin-right: 142px;
+}
+
 section#diversos input#total {
     background-color: var(--cor04);
     color: white;
