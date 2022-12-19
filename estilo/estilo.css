@@ -216,18 +216,34 @@ section#pedidos {
     max-width: 280px;
     margin: auto;
 }
-
+/*
 section#pedidos span {
+    
+}
+*/
+span.item {
+    background-color: blueviolet;
+    display: inline-block;
+    width: 140px;
+    margin-right: 60px;
+
     text-align: left;
     text-indent: 1px;
     padding-top: 10px;
 }
 
-section#pedidos span.item {
-    background-color: blueviolet;
-    display: inline-block;
-    width: 140px;
-    margin-right: 80px;
+span#item02 {
+    background-color: darkkhaki;
+    margin-right: 78px;
+    width: 130px;
+    text-indent: 11px;
+}
+
+span#item03 {
+    background-color: darkgoldenrod;
+    margin-right: 70px;
+    width: 130px;
+    text-indent: 11px;
 }
 
 section#diversos section#precoFinal {
@@ -235,7 +251,7 @@ section#diversos section#precoFinal {
     max-width: 280px;
     margin: auto;
 }
-
+/*
 section#precoFinal span {
     text-align: left;
     text-indent: 1px;
@@ -248,7 +264,7 @@ section#precoFinal span.totalProdutos {
     width: 76px;
     margin-right: 142px;
 }
-
+*/
 section#diversos input#total {
     background-color: var(--cor04);
     color: white;

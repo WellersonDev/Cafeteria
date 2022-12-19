@@ -52,6 +52,8 @@ function adicionarPedido() {
         precoFinal = precoFinal + 4.50;
     }
 
+    
+
     console.log(precoFinal);
     console.log(clique);
     /*lista.innerHTML += `<p>${precoFinal}</p>`*/
@@ -60,5 +62,19 @@ function adicionarPedido() {
 function total() {
     let precoTotal = document.querySelector('section#precoFinal');
     precoTotal.innerHTML = ``
-    precoTotal.innerHTML += `<span class="totalProdutos">Total: </span><span>R$${precoFinal.toFixed(2).replace('.', ',')}</span>`
+    precoTotal.innerHTML += `<span id="oTotal" class="item">Total: </span> <span>R$${precoFinal.toFixed(2).replace('.', ',')}</span>`
+    precoTotal.innerHTML += `<hr>`
+
+
+    if(precoFinal > 99.99) {
+        let item = document.querySelector('span#oTotal');
+        item.removeAttribute('id');
+        item.setAttribute('id', 'item03');
+    }
+
+    else if(precoFinal > 9.99) {
+        let item = document.querySelector('span#oTotal');
+        item.removeAttribute('id');
+        item.setAttribute('id', 'item02');
+    }
 }
