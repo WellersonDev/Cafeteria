@@ -212,7 +212,7 @@ section#diversos input#botãoIncluir:hover {
 }
 
 section#pedidos {
-    background-color: blue;
+    /*background-color: blue;*/
     max-width: 280px;
     margin: auto;
 }
@@ -225,7 +225,7 @@ span.item {
     background-color: blueviolet;
     display: inline-block;
     width: 140px;
-    margin-right: 60px;
+    margin-right: 40px;
 
     text-align: left;
     text-indent: 1px;
@@ -234,20 +234,20 @@ span.item {
 
 span#item02 {
     background-color: darkkhaki;
-    margin-right: 78px;
+    margin-right: 59px;
     width: 130px;
-    text-indent: 11px;
+    text-indent: 9px;
 }
 
 span#item03 {
     background-color: darkgoldenrod;
-    margin-right: 70px;
+    margin-right: 68px;
     width: 130px;
-    text-indent: 11px;
+    text-indent: 19px;
 }
 
-section#diversos section#precoFinal {
-    background-color: darkcyan;
+section#precoFinal {
+    /*background-color: darkcyan;*/
     max-width: 280px;
     margin: auto;
 }

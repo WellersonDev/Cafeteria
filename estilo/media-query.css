@@ -117,8 +117,24 @@ Grandes telas: acima de 1200px
         max-width: 420px;
     }
 
-    section#pedidos span.item {
-        margin-right: 220px;
+    section#precoFinal {
+        max-width: 420px;
+    }
+
+    span.item {
+        margin-right: 185px;
+    }
+
+    span#item02 {
+        margin-right: 186px;
+        width: 148px;
+        text-indent: 10px;
+    }
+
+    span#item03 {
+        margin-right: 184px;
+        width: 159px;
+        text-indent: 19px;
     }
     /*=====================================*/
 }
