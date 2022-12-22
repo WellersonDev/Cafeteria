@@ -1,14 +1,7 @@
-let clique = 0;
 let precoFinal = 0;
 function adicionarPedido() {
     let produto = document.querySelector('select').value;
     let lista = document.querySelector('section#pedidos');
-    console.log(produto);
-    
-
-    if(produto != false) {
-        clique++;
-    }
 
     if(produto === 'Pão Francês') {
         lista.innerHTML += `<span class="item">${produto}</span> <span>R$2,50</span>`
@@ -51,12 +44,6 @@ function adicionarPedido() {
         lista.innerHTML += `<hr>`
         precoFinal = precoFinal + 4.50;
     }
-
-    
-
-    console.log(precoFinal);
-    console.log(clique);
-    /*lista.innerHTML += `<p>${precoFinal}</p>`*/
 }
 
 function total() {

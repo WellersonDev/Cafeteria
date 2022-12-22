@@ -19,7 +19,7 @@ function tamanho() {
 }
 
 function horas() {
-    let texto = document.querySelector('#horas');
+    let texto = document.querySelector('.horas');
     let data = new Date();
     let horas = data.getHours();
     let minutos = data.getMinutes();

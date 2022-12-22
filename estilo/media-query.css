@@ -53,11 +53,11 @@ Grandes telas: acima de 1200px
         position: relative;
     }
     
-    header span#lista {
+    header span.lista {
         display: none;
     }
 
-    header p#horas {
+    header p.horas {
         position: absolute;
         left: 182px;
     }
@@ -87,11 +87,11 @@ Grandes telas: acima de 1200px
         margin: 50px auto;
     }
 
-    main section#sobre section.grupo img {
+    main section.sobre section.grupo img {
         margin: 0px auto;
     }
 
-    main section#sobre section.grupo article {
+    main section.sobre section.grupo article {
         margin: 0px auto 0px auto;
     }
 
@@ -101,12 +101,12 @@ Grandes telas: acima de 1200px
         margin: 10px auto;
     }
 
-    footer section.grupo section#links {
+    footer section.grupo section.links {
         margin: 0;
         width: 152px;
     }
 
-    footer section.grupo section#links a {
+    footer section.grupo section.links a {
         padding: 0;
         margin-right: 15px
     }
