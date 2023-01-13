@@ -260,3 +260,27 @@ section.diversos input#total:hover {
     background-color: #8fc0d4c7;
 }
 /*======================================*/
+
+
+
+
+
+/*============ESTILO CONTATO============*/
+main h1 {
+    text-align: center;
+    font-size: 1.4em;
+}
+section#contato01 {
+    background-color: var(--cor02);
+    display: block;
+    width: 200px;
+    margin: auto;
+    padding: 10px 0px;
+
+    text-align: center;
+}
+section#contato01 p#icone-cafe {
+    display: block;
+    font-size: 5em;
+    color: var(--cor03);
+}

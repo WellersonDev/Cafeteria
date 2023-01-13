@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee</title>
+    <link rel="stylesheet" href="estilo/estilo.css">
+    <link rel="stylesheet" href="estilo/media-query.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
+<body onresize="tamanho()" onload="horas()">
+    <header>
+        <h1>Coffee<span class="icone-cafe material-icons">coffee</span></h1>
+
+        <p class="horas"></p>
+
+        <span class="lista material-icons" onclick="menu()">list</span>
+        
+        <menu>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="pedidos.html">Pedidos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </menu>
+
+    </header>
+    <main>
+        <h1>Formulário de Contato</h1>
+        <section id="contato01">
+            <p id="icone-cafe" class="material-icons">coffee</p>
+            <p id="icone-tel" class="material-icons">local_phone</p><span id="tel">Tel: (00)1111-0000</span>
+        </section>
+        <form action="feedback.php" method="post"></form>
+    </main>
+    <footer>
+        <section class="grupo">
+            <section class="links">
+                <a href="#">Saiba mais</a>
+                <a href="#">locais</a>
+            </section>
+            <p>Desenvolvido por<br> WellersonDev</p>
+        </section>
+    </footer>
+    
+    <script src="script/script.js"></script>
+</body>
+</html>
