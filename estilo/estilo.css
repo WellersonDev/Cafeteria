@@ -269,18 +269,62 @@ section.diversos input#total:hover {
 main h1 {
     text-align: center;
     font-size: 1.4em;
+    margin-top: 20px;
+    margin-bottom: 50px;
 }
-section#contato01 {
-    background-color: var(--cor02);
+section#dados section#endereco-tel {
+    /*background-color: var(--cor02);*/
     display: block;
-    width: 200px;
-    margin: auto;
+    max-width: 180px;
+    margin: 0px auto 50px auto;
     padding: 10px 0px;
 
     text-align: center;
 }
-section#contato01 p#icone-cafe {
+section#dados section#endereco-tel p#icone-cafe {
     display: block;
     font-size: 5em;
     color: var(--cor03);
+    margin-bottom: 5px;
+}
+
+section#dados section#formulario {
+    /*background-color: skyblue;*/
+    display: block;
+    max-width: 339px;
+    margin: 25px auto;
+}
+
+section#dados section#formulario input#inome {
+    display: block;
+    width: 339px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid black;
+    /*border-radius: 15px;*/
+    font-size: 14px;
+    outline: 0px;
+}
+
+section#dados section#formulario input#iemail {
+    display: block;
+    width: 339px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid black;
+    /*border-radius: 15px;*/
+    font-size: 14px;
+    outline: 0px;
+}
+
+textarea {
+    display: block;
+    width: 339px;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 14px;
+    outline: 0px;
 }

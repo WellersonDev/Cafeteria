@@ -27,13 +27,23 @@
         </menu>
 
     </header>
-    <main>
+    <main id="corContato">
         <h1>Formulário de Contato</h1>
-        <section id="contato01">
-            <p id="icone-cafe" class="material-icons">coffee</p>
-            <p id="icone-tel" class="material-icons">local_phone</p><span id="tel">Tel: (00)1111-0000</span>
+        <section id="dados">
+            <section id="endereco-tel">
+                <p id="icone-cafe" class="material-icons">coffee</p>
+                <p id="icone-tel" class="material-icons">local_phone</p><span id="tel">Tel: (00)1111-0000</span>
+                <p id="endereco" class="material-icons">place</p><span>Centro, Avenida 211</span>
+            </section>
+
+            <section id="formulario">
+                <form action="feedback.php" method="post">
+                    <input type="text" name="nome" id="inome" placeholder="Seu nome" required>
+                    <input type="email" name="email" id="iemail" placeholder="Seu e-mail" required>
+                    <textarea name="mensagem" id="imensagem" cols="40" rows="7" placeholder="Mensagem..."></textarea>
+                </form>
+            </section>
         </section>
-        <form action="feedback.php" method="post"></form>
     </main>
     <footer>
         <section class="grupo">
