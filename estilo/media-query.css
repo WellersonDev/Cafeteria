@@ -137,4 +137,15 @@ Grandes telas: acima de 1200px
         text-indent: 19px;
     }
     /*=====================================*/
+
+
+    /*==========ESTILO DE CONTATO==========*/
+    section#dados {
+        display: flex;
+    }
+
+    section#dados section#endereco-tel {
+        margin-top: 40px;
+    }
+    /*=====================================*/
 }

@@ -266,12 +266,23 @@ section.diversos input#total:hover {
 
 
 /*============ESTILO CONTATO============*/
-main h1 {
+/*
+.corpo {
+    background-color: var(--cor04);
+}
+*/
+
+main#contato {
+    margin-bottom: 50px;
+}
+
+main#contato h1 {
     text-align: center;
     font-size: 1.4em;
     margin-top: 20px;
     margin-bottom: 50px;
 }
+
 section#dados section#endereco-tel {
     /*background-color: var(--cor02);*/
     display: block;
@@ -296,6 +307,7 @@ section#dados section#formulario {
 }
 
 section#dados section#formulario input#inome {
+    background-color: transparent;
     display: block;
     width: 339px;
     margin-bottom: 10px;
@@ -308,6 +320,7 @@ section#dados section#formulario input#inome {
 }
 
 section#dados section#formulario input#iemail {
+    background-color: transparent;
     display: block;
     width: 339px;
     margin-bottom: 10px;
@@ -320,6 +333,7 @@ section#dados section#formulario input#iemail {
 }
 
 textarea {
+    background-color: transparent;
     display: block;
     width: 339px;
     padding: 5px;
@@ -328,3 +342,22 @@ textarea {
     font-size: 14px;
     outline: 0px;
 }
+
+input[type=submit] {
+    display: block;
+    background-color: var(--cor04);
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    margin-top: 10px;
+    padding: 10px 14px;
+    cursor: pointer;
+    transition-duration: .2s;
+}
+
+input[type=submit]:hover {
+    background-color: #8fc0d4c7;
+}
+/*======================================*/
