@@ -22,7 +22,13 @@
     box-sizing: border-box;
 }
 
+html, body {
+    height: 100%;
+}
+
 body {
+    display: flex;
+    flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -95,6 +101,10 @@ header menu ul li a:hover {
     transition: background-color .4s;
 }
 
+main {
+    flex: 1 0 auto;
+}
+
 main section.diversos {
     background-color: var(--cor01);
     color: white;
@@ -155,6 +165,7 @@ main section.sobre section.grupo article {
 }
 
 footer {
+    flex-shrink: 0;
     background-color: var(--cor01);
     color: white;
     padding: 20px;
@@ -265,7 +276,7 @@ section.diversos input#total:hover {
 
 
 
-/*============ESTILO CONTATO============*/
+/*===========ESTILO DE CONTATO===========*/
 /*
 .corpo {
     background-color: var(--cor04);
@@ -281,6 +292,11 @@ main#contato h1 {
     font-size: 1.4em;
     margin-top: 20px;
     margin-bottom: 50px;
+}
+
+section#dados {
+    max-width: 1100px;
+    margin: auto;
 }
 
 section#dados section#endereco-tel {
