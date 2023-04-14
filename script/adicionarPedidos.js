@@ -34,13 +34,13 @@ function adicionarPedido() {
     }
 
     else if(produto === 'Sanduíche') {
-        lista.innerHTML += `<span class="item">${produto}</span><span>R$4,00</span>`
+        lista.innerHTML += `<span class="item item04">${produto}</span><span>R$4,00</span>`
         lista.innerHTML += `<hr>`
         precoFinal = precoFinal + 4.00;
     }
 
     else if(produto === 'Fatia de Bolo') {
-        lista.innerHTML += `<span class="item">${produto}</span><span>R$3,55</span>`
+        lista.innerHTML += `<span class="item item04">${produto}</span><span>R$3,55</span>`
         lista.innerHTML += `<hr>`
         precoFinal = precoFinal + 3.55;
     }

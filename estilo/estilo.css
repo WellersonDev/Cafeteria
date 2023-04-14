@@ -246,6 +246,12 @@ span#item03 {
     text-indent: 19px;
 }
 
+span.item04 {
+    margin-right: 80px;
+    width: 105px;
+    text-indent: 1px;
+}
+
 section#precoFinal {
     max-width: 280px;
     margin: auto;
